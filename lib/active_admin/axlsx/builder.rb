@@ -74,7 +74,7 @@ module ActiveAdmin
 
       # This is the I18n scope that will be used when looking up your
       # colum names in the current I18n locale.
-      # If you set it to [:active_admin, :resources, :posts] the 
+      # If you set it to [:active_admin, :resources, :posts] the
       # serializer will render the value at active_admin.resources.posts.title in the
       # current translations
       # @note If you do not set this, the column name will be titleized.
@@ -207,7 +207,7 @@ module ActiveAdmin
       end
 
       def sheet
-        @sheet ||= package.workbook.add_worksheet
+        @sheet ||= package.workbook.add_worksheet(:name => "Worksheet")
       end
 
       def package
