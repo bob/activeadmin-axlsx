@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files  = Dir.glob("{spec/**/*}")
 
   s.add_runtime_dependency 'activeadmin', "> 0.6.0"
-  s.add_runtime_dependency 'axlsx', '2.0.1'
+  s.add_runtime_dependency 'axlsx', '2.1.0.pre'
 
   s.required_ruby_version = '>= 1.9.2'
   s.require_path = 'lib'
