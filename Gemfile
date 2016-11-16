@@ -3,12 +3,13 @@ gem 'axlsx'
 gemspec
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.9'
   gem 'haml',           '~> 3.1.1', :require => false
   gem 'yard'
   gem 'rdiscount' # For yard
   gem "sprockets"
   gem 'rails-i18n' # Gives us default i18n for many languages
+  gem 'json', '1.8.2'
 end
 gem 'simplecov', :require => false, :group => :test
 group :test do
